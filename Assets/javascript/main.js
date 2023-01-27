@@ -6,7 +6,7 @@ var settings = {
   "method": "POST",
   "headers": {
     "content-type": "application/json",
-    "x-apikey": "63d376d73bc6b255ed0c4353",
+    "x-apikey": "<your CORS apikey here>",
     "cache-control": "no-cache"
   },
   "processData": false,
@@ -15,4 +15,4 @@ var settings = {
 
 $.ajax(settings).done(function (response) {
   console.log(response);
-})
+});
