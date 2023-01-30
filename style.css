@@ -10,9 +10,9 @@
     --main-color-alt2: hsl(60, 24%, 44%);
     --title-color: hsl(0, 10%, 83%);
     --title-color-dark: hsl(180, 4%, 12%);
-    --txtColor: hsl(180, 4%, 78%);
+    --txtColor: hsl(0, 0%, 0%);
     --txtColor_light: ■hsl(180, 4%, 65%);
-    --bgColor: hsla(34, 90%, 32%, 0.973);
+    --bgColor: hsla(24, 79%, 71%, 0.973);
 
     /*fonts*/
     --body-font: 'M PLUS 1p', sans-serif; 
@@ -38,4 +38,119 @@
 
 html{
     scroll-behavior: smooth;
+}
+
+body,
+button,
+input{
+    font-family: var(--body-font);
+    font-size: var(--normal-size);
+}
+
+body{
+    background-color: var(--bgColor);
+    color: var(--txtColor);
+}
+
+.nav{
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo,
+.nav_toggle{
+color: var(--title-color);
+display: flex;
+}
+
+.nav_logo{
+align-items: center;
+column-gap: 0.5rem;
+font-weight: var(--font-bold);
+}
+
+.nav_logo img {
+    width: 3.3rem;
+}
+
+.nav_toggle{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+    .nav_menu{
+    position: fixed;
+    background-color: hsla(180, 12%, 8%, .8);
+    backdrop-filter: blur(32px);
+    -webkit-backdrop-filter: blur(32px);
+    top: 0;
+    right: -100%;
+    width: 80%;
+    height: 100%;
+    border-left: 2px solid var(--main-color-alt2);
+    transition: right 0.3s;
+    }
+}
+
+.nav_list{
+    padding: 5rem 0 0 3rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    list-style: none;
+}
+
+.nav_link{
+    color: var(--title-color);
+    transition: color 0.3s;
+}
+
+.nav_link:hover{
+    color: var(--main-color);
+}
+
+.nav_close{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+}
+
+.nav .reg_button{
+    background-color: var(--title-color);
+    border: none;
+
+}
+
+.show-menu{
+    right: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .nav_menu{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .nav{
+        height: calc(var(--header-height) + 2rem);
+    }
+    .nav_menu{
+        width: initial;
+    }
+    .nav_toggle,
+    .nav_close{
+        display: none;
+    }
+    .nav_list{
+        flex-direction: row;
+        padding: 0;
+        align-items: center;
+        column-gap: 4rem;
+    }
 }
