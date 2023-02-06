@@ -9,7 +9,6 @@
 
     $("#contact-submit").on("click", function (e) {
 
-      e.preventDefault();
   
 
       let contactName = $("#contact-name").val();
@@ -18,11 +17,11 @@
   
 
       let jsondata = {
-        "name": contactName,
-        "email": contactEmail,
-        "message": contactNumber
+        "Name": contactName,
+        "Email": contactEmail,
+        "Number": contactNumber
       };
-  
+      
 
       let settings = {
         "async": true,
@@ -43,9 +42,10 @@
           $("#add-contact-form").trigger("reset");
         }
       }
-  
+
 
       $.ajax(settings).done(function (response) {
+        console.log(jsondata)
         console.log(response);
         
         $("#contact-submit").prop( "disabled", false);
@@ -77,7 +77,7 @@
   
       
       $.ajax(settings).done(function (response) {
-        
+        console.log(response);
         let content = "";
   
         for (var i = 0; i < response.length && i < limit; i++) {
