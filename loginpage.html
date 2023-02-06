@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Name</title>
+    </head>
+
+    <body>
+        <heder class="header" id="header">
+            <div>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link">Home</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#class" class="nav_link">Category</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">About</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#plans" class="nav_link">Contact</a>
+                        </li>
+                        <li>
+                            <div class="search-container">
+                                <form action="/search" method="get">
+                                  <input class="search expandright" id="searchright" type="search" name="q" placeholder="Search">
+                                  <label class="button searchbutton" for="searchright"><span class="mglass">&#9906;</span></label>
+                                </form>
+                              </div>
+                        </li>
+                        <div class="nav_link">
+                            <a href="#footer" class="button reg_button">
+                                Login
+                            </a>
+                        </div>
+                    </ul>
+
+                    <div class="nav_close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </heder>
+        <div>
+
+        </div>
+
+        <div class="contact">
+            <h1>Contact Form</h1>
+            <div class="form" id="contact">
+                <form >
+                    <div>
+                        <label>Name:</label>
+                        <input type="text" class="contact-name" required="">
+                    </div>
+                    <div>
+                        <label>Email: </label>
+                        <input type="email" class="contact-email" required="">
+                    </div>
+                    <div>
+                        <label>Tel Number: </label>
+                        <input type="tel" class="contact-number" required="">
+                    </div>
+                    <input type="submit" class="contact-submit" value="Send">
+                </form>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+    
+</html>
