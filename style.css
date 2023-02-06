@@ -12,7 +12,7 @@
     --title-color-dark: hsl(180, 4%, 12%);
     --txtColor: hsl(0, 0%, 0%);
     --txtColor_light: ■hsl(180, 4%, 65%);
-    --bgColor: hsla(24, 79%, 71%, 0.973);
+    --bgColor: #F5F5DC;
 
     /*fonts*/
     --body-font: 'M PLUS 1p', sans-serif; 
@@ -80,10 +80,22 @@ font-weight: var(--font-bold);
     cursor: pointer;
 }
 
+
+
+@media screen and (min-width: 1023px){
+    .nav_list{
+        flex-direction: row;
+        padding: 0;
+        align-items: center;
+        column-gap: 4rem;
+    }
+    
+}
+
 @media screen and (max-width: 1023px) {
     .nav_menu{
     position: fixed;
-    background-color: hsla(180, 12%, 8%, .8);
+    background-color: #444;
     backdrop-filter: blur(32px);
     -webkit-backdrop-filter: blur(32px);
     top: 0;
@@ -93,6 +105,7 @@ font-weight: var(--font-bold);
     border-left: 2px solid var(--main-color-alt2);
     transition: right 0.3s;
     }
+
 }
 
 .nav_list{
@@ -142,6 +155,7 @@ font-weight: var(--font-bold);
     }
     .nav_menu{
         width: initial;
+        background-color: #80471C;
     }
     .nav_toggle,
     .nav_close{
@@ -153,11 +167,31 @@ font-weight: var(--font-bold);
         align-items: center;
         column-gap: 4rem;
     }
+    .linkbutton {
+        display: inline-block;
+        margin: 4px 2px;
+        background-color: #80471C;
+        font-size: 14px;
+        padding-left: 32px;
+        padding-right: 32px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
 }
+
 .button {
 	display: inline-block;
 	margin: 4px 2px;
-	background-color: #444;
+	background-color: #80471C;
 	font-size: 14px;
 	padding-left: 32px;
 	padding-right: 32px;
@@ -224,6 +258,11 @@ font-weight: var(--font-bold);
 	-moz-transition-duration: 0.4s;
 	-webkit-transition-duration: 0.4s;
 	-o-transition-duration: 0.4s;
+}
+
+.mglass {
+	display: inline-block;
+	pointer-events: none;
 }
 
 .search:focus {
