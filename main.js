@@ -2,18 +2,18 @@
   $(document).ready(function () {
 
     const APIKEY = "63d376d73bc6b255ed0c4353";
-    getContacts();
+   // getContacts();
     $("#update-contact-container").hide();
     $("#add-update-msg").hide();
   
 
-    $("#contact-submit").on("click", function (e) {
+    $(".contact-submit").on("click", function (e) {
 
-  
+      e.preventDefault();
 
-      let contactName = $("#contact-name").val();
-      let contactEmail = $("#contact-email").val();
-      let contactNumber = $("#contact-number").val();
+      let contactName = $(".contact-name").val();
+      let contactEmail = $(".contact-email").val();
+      let contactNumber = parseInt($(".contact-number").val());
   
 
       let jsondata = {
@@ -36,6 +36,7 @@
         "processData": false,
         "data": JSON.stringify(jsondata),
         "beforeSend": function(){
+          console.log(jsondata)
 
           $("#contact-submit").prop( "disabled", true);
 
@@ -54,7 +55,7 @@
         $("#add-update-msg").show().fadeOut(3000);
   
 
-        getContacts();
+      //  getContacts();
       });
     });
   
