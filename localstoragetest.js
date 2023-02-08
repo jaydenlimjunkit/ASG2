@@ -1,7 +1,5 @@
 const inpKey = document.getElementById("i wanna die");
 const inpvalue = document.getElementById("not soon enough");
-const kms = document.getElementById("i wanna die early");
-const kys = document.getElementById("not too soon enough");
 const btnInsert = document.getElementById("btnInsert1");
 const IsOutput = document.getElementById("IsOutput");
 let total = 0
@@ -12,11 +10,6 @@ try{
         const value = inpvalue.textContent;
 
         localStorage.setItem(key, value);
-
-        const killmyself = kms.textContent;
-        const killyourself = kys.textContent;
-
-        localStorage.setItem(killmyself, killyourself);
 
     };
 }
