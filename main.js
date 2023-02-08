@@ -109,7 +109,7 @@
   function searchbutton (){
     let input = document.getElementById('searchright').value
     input = input.toLowerCase();
-    let x = document.getElementsByClassName('products');
+    let x = document.getElementsByClassName('product');
       
     for (i = 0; i < x.length; i++) { 
         if (!x[i].innerHTML.toLowerCase().includes(input)) {
