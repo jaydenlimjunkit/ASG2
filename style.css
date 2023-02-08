@@ -338,14 +338,6 @@ font-weight: var(--font-bold);
     cursor: pointer;
 }
 
-#rcorners1 {
-    border-radius: 15px;
-    background: #73AD21;
-    padding: 20px;
-    width: 200px;
-    height: 200px;
-} 
-
 .product-filter{
     display: flex;
 }
