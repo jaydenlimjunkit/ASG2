@@ -10,6 +10,14 @@ const wow = document.getElementById("wow");
 const wowprice = document.getElementById("wowprice");
 const wowaddtocart = document.getElementById("wowaddtocart");
 
+const fifa = document.getElementById("fifa");
+const fifaprice = document.getElementById("fifaprice");
+const fifaaddtocart = document.getElementById("fifaaddtocart");
+
+const er = document.getElementById("er");
+const erprice = document.getElementById("erprice");
+const eraddtocart = document.getElementById("eraddtocart");
+
 const IsOutput = document.getElementById("IsOutput");
 const IsOutputgamename = document.getElementById("IsOutputgamename");
 
@@ -17,7 +25,28 @@ const clearstorage = document.getElementById("clearstorage");
 
 
 let total = 0
+try{
+    eraddtocart.onclick = function (){
+        const eldenring = er.textContent;
+        const eldenringprice = erprice.textContent;
 
+        localStorage.setItem(eldenring, eldenringprice);
+
+    };
+}
+catch{
+};
+try{
+    fifaaddtocart.onclick = function (){
+        const fifa23 = fifa.textContent;
+        const fifa23price = fifaprice.textContent;
+
+        localStorage.setItem(fifa23, fifa23price);
+
+    };
+}
+catch{
+};
 try{
     mcaddtocart.onclick = function (){
         const minecraft = mc.textContent;
