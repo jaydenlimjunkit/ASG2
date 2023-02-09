@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/ccf9cd501c.js" crossorigin="anonymous"></script>
     <title>Gametron</title>
 </head>
 
@@ -28,18 +29,20 @@
         </div>
                  
     </header>
-        <div class = "carousel-container">
-            <i class="fa-solid fa-arrow-left" id="prevBtn"></i>
-            <i class="fa-solid fa-arrow-right" id="nextBtn"></i>
-            <div class = "carousel-slide">
-                <img src="images/" id = "lastClone" alt="">
-                <img src="./IMG/mhr1920x1080.jpg" alt="">
-                <img src="./IMG/eldenring1920x1080.jpg" alt="">
-                <img src="./IMG/pokemonS&V1920x1080.webp" alt="">
-                <img src="./IMG/valorant1920x1080.jpg" alt="">
-                <img src="./IMG/mhr1920x1080.jpg" id = "firstClone" alt="">
+        <section>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="images/valorant1920x1080.jpg" alt="">
+                    <img src="images/mhr1920x1080.jpg" alt="">
+                    <img src="images/eldenring1920x1080.jpg" alt="">
+                    <img src="images/pokemonS&V1920x1080.webp" alt="">
+                    <img src="images/valorant1920x1080.jpg" alt="">
+                </div>
             </div>
-        </div>
+
+            <button id="prevBtn">Prev</button>
+            <button id="nextBtn">Next</button>
+        </section>
 
         <nav class="product-filter">
 
@@ -83,42 +86,40 @@
                 </div>
             </li>
 
-            <li class="product">
-                <div class="prod-card">
-                    <div class="prod-card-inner">
-                        <div>
-                            <img src="">
-                        </div>
-                        <div class="prod-name">
-                            <h3>World of Warcraft</h3>
-                        </div>
-                        <div class="buttons">
-                            <a href="" class="moreinfo">Add to Cart</a>
-
-                        </div> 
+        <li class="product">
+            <div class="prod-card">
+                <div class="prod-card-inner">
+                    <div>
+                        <img src="">
+                    </div>
+                    <div class="prod-name">
+                        <h3>World of Warcraft</h3>
+                    </div>
+                    <div class="buttons">
+                        <a href="" class="moreinfo">Add to Cart</a>
+                        
                     </div> 
-                </div>
-            </li>
+                </div> 
+            </div>
+        </li>
 
-            <li class="product">
-                <div class="prod-card">
-                    <div class="prod-card-inner">
-                        <div>
-                            <img src="">
-                        </div>
-                        <div class="prod-name">
-                            <h3>World of Warcraft</h3>
-                        </div>
-                        <div class="buttons">
-                            <a href="" class="moreinfo">Add to cart</a>
-                        </div> 
+        <li class="product">
+            <div class="prod-card">
+                <div class="prod-card-inner">
+                    <div>
+                        <img src="">
+                    </div>
+                    <div class="prod-name">
+                        <h3>World of Warcraft</h3>
+                    </div>
+                    <div class="buttons">
+                        <a href="" class="moreinfo">Add to cart</a>
                     </div> 
-                </div>
-            </li>
+                </div> 
+            </div>
+        </li>
 
-        </ul>
-
-
+    </ul>
         <script src="main.js"></script>
     </body>
     
