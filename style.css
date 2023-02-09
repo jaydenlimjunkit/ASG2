@@ -241,11 +241,12 @@ body{
   }
   
   .carousel-container{
+    display: flex;
     width: 60%;
     margin: auto;
     border: 5px solid white;
-    /* overflow: hidden; */
-    /* position: relative; */
+    overflow: hidden; 
+    position: relative; 
 }
 
 .carousel-slide{
@@ -256,9 +257,9 @@ body{
 
 #prevBtn{
     position: absolute;
-    top: 50%;
+    top: 30%;
     z-index: 10;
-    left: 5%;
+    left: 22%;
     font-size: 30px;
     color: white;
     opacity: 1;
@@ -267,9 +268,9 @@ body{
 
 #nextBtn{
     position: absolute;
-    top: 50%;
+    top: 30%;
     z-index: 10;
-    right: 5%;
+    right:22%;
     font-size: 30px;
     color: white;
     opacity: 1;
