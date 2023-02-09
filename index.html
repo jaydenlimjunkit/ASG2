@@ -29,21 +29,26 @@
         </div>
                  
     </header>
-        <section>
-            <div class="carousel-container">
-                <div class="carousel-slide">
-                    <img src="images/valorant1920x1080.jpg" id="lastClone" alt="">
-                    <img src="images/mhr1920x1080.jpg" alt="">
-                    <img src="images/eldenring1920x1080.jpg" alt="">
-                    <img src="images/pokemonS&V1920x1080.webp" alt="">
-                    <img src="images/valorant1920x1080.jpg" alt="">
-                    <img src="images/mhr1920x1080.jpg" id="firstClone" alt="">
+        <main class="main">
+            <article>
+                <section class="home section" id="home">
+                    <div class ="home_container container grid">
+                        <div class="data">
+                            <h2 class="subtitle">BUY GAMES</h2>
+                            <h1 class="title">FOR CHEAPER</h1>
+                            <p class="main-desc">
+                                We offer games at a price not found on other sites
+                            </p>
+                            <a href="#products" class="button flex_button">
+                                Get started <i class="ri-arrow-right-fill"></i>
+                            </a>
+                        </div>
+                <div class="lottie-animation">
+                    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_ccgqngp5.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player>
                 </div>
-            </div>
-
-            <i class="fa-solid fa-arrow-left" id="prevBtn"></i>
-            <i class="fa-solid fa-arrow-right" id="nextBtn"></i>
-        </section>
+            </article>
+        </main>
+            
 
         <div class="productcontainer">
         <nav class="product-filter">
@@ -71,7 +76,7 @@
         </nav>
 
 
-        <ul class="grid list">
+        <ul class="grid list" id="products">
             <li class="product">
                 <div class="prod-card">
                     <div class="prod-card-inner">
@@ -172,6 +177,7 @@
     </ul>
     </div>
         <script src="main.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     </body>
     
 </html>

@@ -236,43 +236,7 @@ body{
 
 
   
-  .carousel-container{
-    display: flex;
-    width: 60%;
-    margin: auto;
-    border: 5px solid white;
-    overflow: hidden; 
-    position: relative; 
-	margin-top: 6.5rem;
-}
-
-.carousel-slide{
-    display: flex;
-    width: 100%;
-    height: 645px;
-}
-
-#prevBtn{
-    position: absolute;
-    top: 30%;
-    z-index: 10;
-    left: 22%;
-    font-size: 30px;
-    color: white;
-    opacity: 1;
-    cursor: pointer;
-}
-
-#nextBtn{
-    position: absolute;
-    top: 30%;
-    z-index: 10;
-    right:22%;
-    font-size: 30px;
-    color: white;
-    opacity: 1;
-    cursor: pointer;
-}
+  
 
 .moredetails{
 	padding-top: 100px;
@@ -319,5 +283,81 @@ body{
   select {
 	display: inline;
   }
+
+  .container {
+    max-width: 1124px;
+    margin-right: 5rem;
+    margin-left: 1.5rem;
+	display: grid;
+    gap: 1.5rem;
+}
+
+.section{
+    padding: 4.5rem 0.2rem;
+}
+
+.main{
+    overflow: hidden
+}
+
+.home{
+    position: relative;
+    padding-bottom: 0;
+}
+
+.home_container{
+    padding-top: 4rem;
+    row-gap: 3rem;
+}
+
+.subtitle{
+    font-size: var(--larger-size);
+    -webkit-text-stroke: 1px var(--title-color);
+}
+
+.subtitle,
+.title{
+    letter-spacing: 1.5px;
+}
+
+.title{
+    font-size: var(--largest-size);
+    font-weight: var(--black);
+    margin: 0.5rem 0;
+}
+
+.main-desc{
+	margin-bottom: 2.5rem;
+}
   
-  
+.button{
+    display: inline-block;
+    background-color: var(--main-color);
+    padding: 18px 32px;
+    border: 2px solid var(--main-color-light);
+    color: var(--title-color-dark);
+    font-weight: var(--bold);
+    cursor: pointer;
+    transition: background 0.3s;
+
+}
+
+.button:hover{
+    background-color: var(--main-color-alt);
+}
+
+.button i{
+    font-size: 1.25rem;
+    transition: transform 0.3s;
+}
+
+.flex_button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5rem;
+}
+
+.flex_button:hover i{
+    transform:translateX(0.25rem);
+}
