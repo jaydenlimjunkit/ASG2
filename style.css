@@ -277,7 +277,7 @@ body{
   }
   
   button {
-	background-color: #638D99 !important;
+	background-color: #638D99;
   }
   
   select {
@@ -308,6 +308,14 @@ body{
 .home_container{
     padding-top: 4rem;
     row-gap: 3rem;
+}
+
+.data{
+    margin-left: 7rem;
+}
+
+.lottie-animation{
+	margin-left: 5rem;
 }
 
 .subtitle{
