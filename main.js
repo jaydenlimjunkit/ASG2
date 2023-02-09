@@ -13,6 +13,12 @@
         }
     }
 }
+
+const header = doccument.querySelector("header");
+
+window.addEventListener("scroll", function(){
+  header.classList.toggle ("sticky", this.window.scrollY > 0)
+})
   
 const carouselSlide = document.querySelector('.carousel-slide');
 const carouselImages = document.querySelectorAll('.carousel-slide img');
