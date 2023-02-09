@@ -1,60 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <title>Name</title>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Gametron</title>
+</head>
 
-    <body>
-        <header class="header" id="header">
-            <div>
-                <div class="nav_menu" id="nav-menu">
-                    <ul class="nav_list">
-                        <li class="nav_item">
-                            <a href="#home" class="nav_link linkbutton">Home</a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#category" class="nav_link linkbutton">Category</a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#about" class="nav_link linkbutton">About</a>
-                        </li>
-                        <li class="nav_item">
-                            <a href="#contact" class="nav_link button">Contact</a>
-                        </li>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="images/logo.png"></a>
+        
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
 
-                        <div class="nav_link">
-                            <a href="#footer" class="button reg_button">
-                                Login
-                            </a>
-                        </div>
+        <div class="nav-icons">
+            <a href="#"><i class='bx bx-search-alt'></i></a>
+            <a href="#"><i class='bx bx-user' ></i></a>
+            <a href="#"><i class='bx bx-cart' ></i></a>
 
-                            <div class="search-container">
-                                <form action="/search" method="get">
-                                  <input class="search expandright" id="searchright" type="search" placeholder="Search">
-                                  <label class="button searchbutton" for="searchright"><span class="mglass">&#9906;</span></label>
-                                </form>
-                              </div>
-                        
-                        
-                    </ul>
-
-                    <div class="nav_close" id="nav-close">
-                        <i class="ri-close-line"></i>
-                    </div>
-                </div>
-                <div class="nav_toggle" id="nav-toggle">
-                    <i class="ri-menu-line"></i>
-                </div>
-            </div>
-        </header>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+                 
+    </header>
         <div class = "carousel-container">
             <i class="fa-solid fa-arrow-left" id="prevBtn"></i>
             <i class="fa-solid fa-arrow-right" id="nextBtn"></i>
             <div class = "carousel-slide">
-                <img src="./IMG/valorant1920x1080.jpg" id = "lastClone" alt="">
+                <img src="images/" id = "lastClone" alt="">
                 <img src="./IMG/mhr1920x1080.jpg" alt="">
                 <img src="./IMG/eldenring1920x1080.jpg" alt="">
                 <img src="./IMG/pokemonS&V1920x1080.webp" alt="">
@@ -90,7 +68,7 @@
           <ul class="wrapper">
             <li class="product fl-l">
                 <div class="prod-container">
-                    <img class = "image" src="images/wowlogo.png">
+                    <img class = "image" src="images/">
                     <div class="prod-info">
                         <div class prod-name>World of warcraft</div>
                     </div>
@@ -100,7 +78,6 @@
                                 <span class="add">Add to cart <i class="fa fa-shopping-cart"></i></span>
                 </div>
             </li>
-            
 
             
           </ul>
