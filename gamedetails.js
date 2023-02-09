@@ -11,6 +11,11 @@ const wowprice = document.getElementById("wowprice");
 const wowaddtocart = document.getElementById("wowaddtocart");
 
 const IsOutput = document.getElementById("IsOutput");
+const IsOutputgamename = document.getElementById("IsOutputgamename");
+
+const clearstorage = document.getElementById("clearstorage");
+
+
 let total = 0
 
 try{
@@ -52,7 +57,7 @@ try{
         const key = localStorage.key(i);
         const value = localStorage.getItem(key);
     
-        IsOutput.innerHTML += `${key}<br />`;
+        IsOutputgamename.innerHTML += `${key}<br />`;
     }
     
     for (let i = 0; i < localStorage.length; i++){
@@ -92,5 +97,12 @@ try{
         sliderMainImage.src = sliderImageList[3].src;
         console.log(sliderMainImage.src);
     };
+}
+catch{}
+
+try{
+    clearstorage.onclick = function(){
+        localStorage.clear()
+    }
 }
 catch{}

@@ -320,4 +320,6 @@ body{
 	display: inline;
   }
   
-  
+  fieldset{
+    margin-top: 5rem;
+  }
