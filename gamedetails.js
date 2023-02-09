@@ -11,6 +11,11 @@ const wowprice = document.getElementById("wowprice");
 const wowaddtocart = document.getElementById("wowaddtocart");
 
 const IsOutput = document.getElementById("IsOutput");
+const IsOutputgamename = document.getElementById("IsOutputgamename");
+
+const clearstorage = document.getElementById("clearstorage");
+
+
 let total = 0
 
 try{
@@ -52,7 +57,7 @@ try{
         const key = localStorage.key(i);
         const value = localStorage.getItem(key);
     
-        IsOutput.innerHTML += `${key}<br />`;
+        IsOutputgamename.innerHTML += `${key}<br />`;
     }
     
     for (let i = 0; i < localStorage.length; i++){
@@ -60,33 +65,44 @@ try{
         console.log(localStorage.getItem(key));
         total += parseFloat(localStorage.getItem(key));
         console.log(total);
-    
+
     }
     IsOutput.innerHTML += `${total}<br />`;
+
 }
 catch{}
 
 //image slider for product
-const sliderMainImage = document.getElementById("product-main-image"); //product container image
-const sliderImageList = document.getElementsByClassName("image-list"); // image thumblian group selection
-console.log(sliderImageList);
+try{
+    const sliderMainImage = document.getElementById("product-main-image"); //product container image
+    const sliderImageList = document.getElementsByClassName("image-list"); // image thumblian group selection
+    console.log(sliderImageList);
+    
+    sliderImageList[0].onclick = function(){
+        sliderMainImage.src = sliderImageList[0].src;
+        console.log(sliderMainImage.src);
+    };
+    
+    sliderImageList[1].onclick = function(){
+        sliderMainImage.src = sliderImageList[1].src;
+        console.log(sliderMainImage.src);
+    };
+    
+    sliderImageList[2].onclick = function(){
+        sliderMainImage.src = sliderImageList[2].src;
+        console.log(sliderMainImage.src);
+    };
+    
+    sliderImageList[3].onclick = function(){
+        sliderMainImage.src = sliderImageList[3].src;
+        console.log(sliderMainImage.src);
+    };
+}
+catch{}
 
-sliderImageList[0].onclick = function(){
-    sliderMainImage.src = sliderImageList[0].src;
-    console.log(sliderMainImage.src);
-};
-
-sliderImageList[1].onclick = function(){
-    sliderMainImage.src = sliderImageList[1].src;
-    console.log(sliderMainImage.src);
-};
-
-sliderImageList[2].onclick = function(){
-    sliderMainImage.src = sliderImageList[2].src;
-    console.log(sliderMainImage.src);
-};
-
-sliderImageList[3].onclick = function(){
-    sliderMainImage.src = sliderImageList[3].src;
-    console.log(sliderMainImage.src);
-};
+try{
+    clearstorage.onclick = function(){
+        localStorage.clear()
+    }
+}
+catch{}
