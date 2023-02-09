@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');  /** Poppins Font **/
 
 
-/** gobal layout */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
+
 
 :root{
     --primary-color: #5344db;
@@ -41,7 +35,6 @@
 
 
 .single-product .breadcrumb{
-    background: #48484810;
     padding: 8px 4px;
     border-radius: 8px;
     font-size: 15px;
@@ -92,7 +85,7 @@
 .product-image-slider img{
     width: 90px;
     height: 90px;
-    background: var(--bg-grey);
+    background: #F5F5DC;
     padding: 6px;
     cursor: pointer;
 }
