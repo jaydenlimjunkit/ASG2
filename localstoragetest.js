@@ -28,6 +28,6 @@ for (let i = 0; i < localStorage.length; i++){
     console.log(localStorage.getItem(key));
     total += parseFloat(localStorage.getItem(key));
     console.log(total);
-    IsOutput.innerHTML += `${total}<br />`;
 
 }
+IsOutput.innerHTML += `${total}<br />`;
