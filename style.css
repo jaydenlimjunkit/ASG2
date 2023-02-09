@@ -239,8 +239,8 @@ body{
     width: 60%;
     margin: auto;
     border: 5px solid white;
-    overflow: hidden;
-    position: relative;
+    /* overflow: hidden; */
+    /* position: relative; */
 }
 
 .carousel-slide{
