@@ -29,49 +29,38 @@
         </div>
                  
     </header>
-        <section>
-            <div class="carousel-container">
-                <div class="carousel-slide">
-                    <img src="images/valorant1920x1080.jpg" id="lastClone" alt="">
-                    <img src="images/mhr1920x1080.jpg" alt="">
-                    <img src="images/eldenring1920x1080.jpg" alt="">
-                    <img src="images/pokemonS&V1920x1080.webp" alt="">
-                    <img src="images/valorant1920x1080.jpg" alt="">
-                    <img src="images/mhr1920x1080.jpg" id="firstClone" alt="">
+        <main class="main">
+            <article>
+                <section class="home section" id="home">
+                    <div class ="home_container container grid">
+                        <div class="data">
+                            <h2 class="subtitle">BUY GAMES</h2>
+                            <h1 class="title">FOR CHEAPER</h1>
+                            <p class="main-desc">
+                                We offer games at a price not found on other sites
+                            </p>
+                            <a href="#products" class="button flex_button">
+                                Get started <i class="ri-arrow-right-fill"></i>
+                            </a>
+                        </div>
+                <div class="lottie-animation">
+                    <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_ccgqngp5.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop autoplay></lottie-player>
                 </div>
-            </div>
-
-            <i class="fa-solid fa-arrow-left" id="prevBtn"></i>
-            <i class="fa-solid fa-arrow-right" id="nextBtn"></i>
-        </section>
+            </article>
+        </main>
+            
 
         <div class="productcontainer">
         <nav class="product-filter">
 
             <h1>Games on sale</h1>
           
-            <div class="sort">
-          
-              <div class="collection-sort">
-                <label>Filter by:</label>
-                <select>
-                  <option value="/">All games</option>
-                </select>
-              </div>
-          
-              <div class="collection-sort">
-                <label>Sort by:</label>
-                <select>
-                  <option value="/">Featured</option>
-                </select>
-              </div>
-          
-            </div>
+            
           
         </nav>
 
 
-        <ul class="grid list">
+        <ul class="grid list" id="products">
             <li class="product">
                 <div class="prod-card">
                     <div class="prod-card-inner">
@@ -82,7 +71,7 @@
                             <h3>World of Warcraft</h3>
                         </div>
                         <div class="buttons">
-                            <a href="wow.html" class="moreinfo">More information</a>
+                            <a href="wow.html" class="moreinfo">Click for more information</a>
                         </div> 
                     </div> 
                 </div>
@@ -98,7 +87,7 @@
                             <h3>Overwatch 2</h3>
                         </div>
                         <div class="buttons">
-                            <a href="ow.html" class="moreinfo">More information</a>
+                            <a href="ow.html" class="moreinfo">Click for more information</a>
                             
                         </div> 
                     </div> 
@@ -115,7 +104,7 @@
                             <h3>Minecraft</h3>
                         </div>
                         <div class="buttons">
-                            <a href="mc.html" class="moreinfo">More information</a>
+                            <a href="mc.html" class="moreinfo">Click for more information</a>
                         </div> 
                     </div> 
                 </div>
@@ -131,7 +120,7 @@
                             <h3>Stardew Valley</h3>
                         </div>
                         <div class="buttons">
-                            <a href="gamedetails/sv.html" class="moreinfo">More information</a>
+                            <a href="sv.html" class="moreinfo">Click for more information</a>
                         </div> 
                     </div> 
                 </div>
@@ -147,7 +136,7 @@
                             <h3>Fifa 23</h3>
                         </div>
                         <div class="buttons">
-                            <a href="fifa.html" class="moreinfo">More information</a>
+                            <a href="fifa.html" class="moreinfo">Click for more information</a>
                         </div> 
                     </div> 
                 </div>
@@ -163,7 +152,7 @@
                             <h3>Elden Ring</h3>
                         </div>
                         <div class="buttons">
-                            <a href="er.html" class="moreinfo">More information</a>
+                            <a href="er.html" class="moreinfo">Click for more information</a>
                         </div> 
                     </div> 
                 </div>
@@ -172,6 +161,7 @@
     </ul>
     </div>
         <script src="main.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     </body>
     
 </html>
