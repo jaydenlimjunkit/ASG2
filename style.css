@@ -404,3 +404,17 @@ body{
 	text-transform: capitalize;
 	margin-bottom: 2px;
 }
+
+
+
+.contact-info{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+	gap: 3rem;
+
+}
+
+.first img{
+	width: 140px;
+	height: auto;
+}
