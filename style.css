@@ -365,3 +365,42 @@ body{
   fieldset{
     margin-top: 5rem;
   }
+
+  .about{
+	background-color: #f3f4f6;
+  }
+
+  .us{
+	text-align: center;
+  }
+
+  .us h3{
+	color:#000;
+	font-size: 25px;
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: 700;
+  }
+
+  .us img{
+	width: 100px;
+	height: auto;
+	border-radius: 50px;
+	margin: 10px 0;
+  }
+
+  .us p{
+	color: #707070;
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 400;
+	margin-bottom: 10px;
+  }
+
+.us h2{
+	font-size: 22px;
+	color: #000;
+	font-weight: 400;
+	text-transform: capitalize;
+	margin-bottom: 2px;
+}
