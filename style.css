@@ -151,11 +151,12 @@ body{
 }
 
 .grid{
-	margin: 1em 0;
-	padding: 0;
-	max-width: 30em;
-	display: flex;
-	flex-wrap: wrap;
+	
+	justify-content: space-between;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 26rem);
+	margin-left: 2px;
+	margin-top: 2px;
   }
   
   .grid li{
@@ -168,6 +169,8 @@ body{
 	display: inline;
 
   }
+
+ 
 
 
   
@@ -231,14 +234,7 @@ body{
 	object-fit: cover;
   }
 
-  .grid {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-  }
+
   
   .carousel-container{
     width: 60%;
@@ -279,4 +275,10 @@ body{
 .moredetails{
 	padding-top: 100px;
 	padding-left: 150px;
+}
+
+.productcontainer{
+	margin-left:50px;
+	row-gap: 2rem;
+	padding: 2rem 2.5rem;
 }
