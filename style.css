@@ -361,6 +361,7 @@ body{
 .flex_button:hover i{
     transform:translateX(0.25rem);
 }
+
   fieldset{
     margin-top: 5rem;
   }
