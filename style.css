@@ -270,3 +270,8 @@ body{
     opacity: 1;
     cursor: pointer;
 }
+
+.moredetails{
+	padding-top: 100px;
+	padding-left: 150px;
+}
