@@ -14,12 +14,14 @@ $(document).ready(function () {
       let contactName = $(".contact-name").val();
       let contactEmail = $(".contact-email").val();
       let contactNumber = parseInt($(".contact-number").val());
+      let password = $(".password").val();
   
 
       let jsondata = {
         "Name": contactName,
         "Email": contactEmail,
-        "Number": contactNumber
+        "Number": contactNumber,
+        "Password": password
       };
       
 
