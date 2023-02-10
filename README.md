@@ -10,14 +10,16 @@ As a user that plays a lot of games, I would find some games such as elden ring 
 ## Features
 
 ### Existing Features
-Feature 1 
-Feature 1 
-Feature 1 
-Feature 1 
+- Search bar
+hfbfub
+- Image slider
+- Log in
+- Sign up
+- Local storage(cart)
 
 ### Features Left To Implement
 
-
+- Prize wheel
 
 ## Technologies used
 - HTML
