@@ -2,10 +2,11 @@
 GameTron is a website that allows users to purchase trending games for a cheaper price.
 
 ## Design Process
-This website is targeted at people that play games and think that games bought from more famous retailers are a bit too expensive.
-This website is a quick and easy way for users to be able to get trending games for cheap
+This website is targeted at people who play games but think that games bought from other retailers are a bit too expensive.
+This website is a quick and easy way for users to be able to get trending games for cheap prices while also knowing how well received the game is.
 
-As a user that plays a lot of games, I would find some games such as elden ring expensive. With this website I am able to get it at a cheaer price
+
+As a user that plays a lot of games, I would find some games such as elden ring expensive. With this website I am able to get it at a cheaer price and still experience the same level of enjoyment. Our website provides detailed descriptions, reviews, and recommendations to help users make informed decisions when purchasing games.
 
 ## Features
 
@@ -31,6 +32,7 @@ As a user that plays a lot of games, I would find some games such as elden ring 
 - JS
 - JQUERY
 - Lottie
+- RestDB
 
 ## Testing 
 1. Log in
@@ -49,8 +51,25 @@ On a mobile device, the website looks fine. when viewing on a mobile device, the
 ## Credits
 
 ### Content
+Star rating
+[https://codepen.io/hesguru/pen/BaybqXv]
+
+Dropdown list
+[https://codepen.io/alexdevero/pen/rNKzoN]
+
+
 
 ### Media
+Icons
+[https://fontawesome.com/]
+[https://boxicons.com/]
+
+Lottie animation
+[https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets6.lottiefiles.com%2Fpackages%2Flf20_ccgqngp5.json]
+
+Game Logos png
+[https://en.wikipedia.org/]
+
 Rainbow Six Siege
 [https://earlygame.com/the-history-of-rainbow-six-siege-from-failure-straight-up-to-esports]
 [https://www.theloadout.com/rainbow-six-siege/best-operators-ranked]
@@ -75,7 +94,7 @@ Fifa 23
 [https://www.ea.com/games/fifa/fifa-23/news/pitch-notes-fifa-23-gameplay-deep-dive]
 [https://www.goal.com/en-sg/news/fifa-23-review-cut-glitz-glamour-superior-gameplay-experience-does-talking/blt1c2f5193e3ee3557]
 
-elden ring
+Elden ring
 [https://www.dsogaming.com/videotrailer-news/new-elden-ring-gameplay-footage-and-4k-screenshots/]
 [https://www.reddit.com/r/Eldenring/comments/u0tkm7/peak_elden_ring_gameplay/]
 [https://techtelegraph.co.uk/elden-ring-new-gameplay-mechanics-you-need-to-know-about/]
@@ -98,3 +117,9 @@ Log In and Sign Up Forms
 
 Wheel
 [https://workshops.hackclub.com/spinning_wheel/]
+
+Clickable list items
+[https://www.youtube.com/watch?v=T-71Yaz7B1I]
+
+Expandable search bar
+[https://codepen.io/k185/pen/PQajXE]
