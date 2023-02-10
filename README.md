@@ -20,11 +20,11 @@ Feature 1
 
 
 ## Technologies used
-HTML
-CSS
-JS
-JQUERY
-Lottie
+- HTML
+- CSS
+- JS
+- JQUERY
+- Lottie
 
 ## Testing 
 
