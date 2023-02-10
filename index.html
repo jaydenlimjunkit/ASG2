@@ -21,7 +21,14 @@
         </ul>
 
         <div class="nav-icons">
-            <a href="wheel.html"><i class='bx bx-color'></i></a>
+            <div class="search-container">
+                <form action="/search" method="get">
+                  
+                  <input type="search" id="searching" class="search expandright" oninput="search()" placeholder="Search" name="q">
+                  <label class="sbutton searchbutton" for="searching"><span><i class='bx bx-search-alt' ></i></span></label>
+                </form>
+              </div>
+              <a href="wheel.html"><i class='bx bx-color'></i></a>
             <a href="cart.html"><i class='bx bx-cart' ></i></a>
 
             <div class="bx bx-menu" id="menu-icon"></div>
@@ -76,6 +83,7 @@
                 </div>
             </li>
 
+
             <li class="product">
                 <div class="prod-card">
                     <div class="prod-card-inner">
@@ -91,6 +99,7 @@
                         </div> 
                     </div> 
                 </div>
+
             </li>
 
             <li class="product">
