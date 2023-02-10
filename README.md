@@ -9,7 +9,7 @@ This website is a quick and easy way for users to be able to get trending games 
 As a user that plays a lot of games, I would find some games such as elden ring expensive. With this website I am able to get it at a cheaer price and still experience the same level of enjoyment. Our website provides detailed descriptions, reviews, and recommendations to help users make informed decisions when purchasing games.
 
 - DEMO
-- [https://drive.google.com/file/d/1zyEG-nFzY2tlZPbXyF8xukZLyDarqAZA/view?usp=share_link]
+- https://drive.google.com/file/d/1zyEG-nFzY2tlZPbXyF8xukZLyDarqAZA/view?usp=share_link
 
 
 ## Features
