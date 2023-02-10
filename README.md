@@ -35,6 +35,24 @@ Feature 1
 ### Content
 
 ### Media
+Rainbow Six Siege
+[https://earlygame.com/the-history-of-rainbow-six-siege-from-failure-straight-up-to-esports]
+[https://www.theloadout.com/rainbow-six-siege/best-operators-ranked]
+[https://www.gamespot.com/reviews/rainbow-six-siege-review-2020-breaches-and-cream/1900-6417459/]
+[https://www.playstation.com/en-sg/games/tom-clancys-rainbow-six-siege/]
+
+Monster Hunter World
+[https://store.steampowered.com/app/1118010/Monster_Hunter_World_Iceborne/]
+[https://www.shacknews.com/article/115816/capcom-apologizes-for-mhw-iceborne-pc-launch-issues-promises-fixes-asap]
+[https://www.gamerbraves.com/mhw-icebornes-second-free-major-title-update-overview/]
+[https://www.fanbyte.com/games/guides/mhw-best-hammer-iceborne-guide/]
+
+Call of Duty
+[https://gametyrant.com/news/call-of-duty-modern-warfare-2-review-grenade-undercooked]
+[https://www.nme.com/guides/gaming-guides/modern-warfare-2-maps-3292319]
+[https://www.xbox.com/en-SG/games/store/call-of-duty-modern-warfare-2-campaign-remastered/9n2ctv36z5s6]
+[https://comicbook.com/gaming/news/call-of-duty-modern-warfare-2-mw2-vault-edition-double-xp-reward/]
+
 Fifa 23
 [https://www.fifa-infinity.com/fifa-23/ea-reveals-details-on-fifa-23-gameplay/]
 [https://www.eurogamer.net/first-look-at-fifa-23-gameplay]
