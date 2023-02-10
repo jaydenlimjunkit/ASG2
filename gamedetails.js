@@ -6,6 +6,10 @@ const ow = document.getElementById("ow");
 const owprice = document.getElementById("owprice");
 const owaddtocart = document.getElementById("owaddtocart");
 
+const sv = document.getElementById("sv");
+const svprice = document.getElementById("svprice");
+const svaddtocart = document.getElementById("svaddtocart");
+
 const wow = document.getElementById("wow");
 const wowprice = document.getElementById("wowprice");
 const wowaddtocart = document.getElementById("wowaddtocart");
@@ -39,6 +43,17 @@ const clearcart = document.getElementById("clearcart");
 
 let total = 0
 
+try{
+    svaddtocart.onclick = function (){
+        const stardewvalley = sv.textContent;
+        const stardewvallyprice = svprice.textContent;
+
+        localStorage.setItem(stardewvalley, stardewvallyprice);
+        alert("Added to Cart")
+    };
+}
+catch{
+};
 try{
     rssaddtocart.onclick = function (){
         const rainbowsixsiege = rss.textContent;
