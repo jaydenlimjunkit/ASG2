@@ -35,6 +35,23 @@ Feature 1
 ### Content
 
 ### Media
+Fifa 23
+[https://www.fifa-infinity.com/fifa-23/ea-reveals-details-on-fifa-23-gameplay/]
+[https://www.eurogamer.net/first-look-at-fifa-23-gameplay]
+[https://www.ea.com/games/fifa/fifa-23/news/pitch-notes-fifa-23-gameplay-deep-dive]
+[https://www.goal.com/en-sg/news/fifa-23-review-cut-glitz-glamour-superior-gameplay-experience-does-talking/blt1c2f5193e3ee3557]
+
+eldern ring
+[https://www.dsogaming.com/videotrailer-news/new-elden-ring-gameplay-footage-and-4k-screenshots/]
+[https://www.reddit.com/r/Eldenring/comments/u0tkm7/peak_elden_ring_gameplay/]
+[https://techtelegraph.co.uk/elden-ring-new-gameplay-mechanics-you-need-to-know-about/]
+[https://www.gamesradar.com/7-things-we-learned-from-elden-rings-15-minute-gameplay-reveal/]
+
+Stardew Valley
+[https://www.stardewvalley.net]
+[https://www.rockpapershotgun.com/stardew-valley-cup-turns-the-relaxing-farming-sim-into-a-surprisingly-sweaty-esport]
+[https://www.stardewvalley.net]
+[https://www.gamesradar.com/stardew-valley-mine-scouting-tip-gives-you-an-instant-map-of-each-floor/]
 
 ### Acknowledgements
 Local Storage
