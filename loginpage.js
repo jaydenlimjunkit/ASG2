@@ -58,7 +58,7 @@ $(document).ready(function () {
 
 
 
-  
+
   //dropdown function for review page
   $(function() {
     var list = $('.js-dropdown-list');
@@ -82,7 +82,7 @@ const afterreview = document.getElementById("afterreview")
 
 try{
   afterreview.onclick = function(){
-    alert("You Have SuccessfulLy Submitted a Review")
+    alert("You Have Successfully Submitted a Review")
     location.reload();
   }
 }
