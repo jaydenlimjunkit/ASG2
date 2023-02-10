@@ -57,6 +57,8 @@ $(document).ready(function () {
   })
 
 
+
+  
   //dropdown function for review page
   $(function() {
     var list = $('.js-dropdown-list');
