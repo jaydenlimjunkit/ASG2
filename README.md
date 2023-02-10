@@ -1,6 +1,9 @@
 # GameTron
 GameTron is a website that allows users to purchase trending games for a cheaper price.
 
+-Github page
+-https://github.com/jaydenlimjunkit/ASG2
+
 ## Design Process
 This website is targeted at people who play games but think that games bought from other retailers are a bit too expensive.
 This website is a quick and easy way for users to be able to get trending games for cheap prices while also knowing how well received the game is.
