@@ -70,3 +70,12 @@ $(document).ready(function () {
     });
   });
 
+const afterreview = document.getElementById("afterreview")
+
+try{
+  afterreview.onclick = function(){
+    alert("You Have SuccessfulLy Submitted a Review")
+    location.reload();
+  }
+}
+catch{}
