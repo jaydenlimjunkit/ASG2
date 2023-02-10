@@ -265,8 +265,9 @@
 }
 
 
-@media screen and (max-width:520px) {
+@media screen and (max-width:1128px) {
     .container{
+        margin-top: 3rem;
         padding: 20px;
         height: auto;
     }
