@@ -8,6 +8,10 @@ This website is a quick and easy way for users to be able to get trending games 
 
 As a user that plays a lot of games, I would find some games such as elden ring expensive. With this website I am able to get it at a cheaer price and still experience the same level of enjoyment. Our website provides detailed descriptions, reviews, and recommendations to help users make informed decisions when purchasing games.
 
+- DEMO
+- [https://drive.google.com/file/d/1zyEG-nFzY2tlZPbXyF8xukZLyDarqAZA/view?usp=share_link]
+
+
 ## Features
 
 ### Existing Features
@@ -51,11 +55,8 @@ On a mobile device, the website looks fine. when viewing on a mobile device, the
 ## Credits
 
 ### Content
-Star rating
-[https://codepen.io/hesguru/pen/BaybqXv]
-
-Dropdown list
-[https://codepen.io/alexdevero/pen/rNKzoN]
+Game Descriptions
+[https://en.wikipedia.org/]
 
 
 
@@ -69,6 +70,24 @@ Lottie animation
 
 Game Logos png
 [https://en.wikipedia.org/]
+
+World of Warcraft
+[https://assets2.rockpapershotgun.com/wow_classic_bwl_nefarian_4k.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/wow_classic_bwl_nefarian_4k.jpg]
+[https://blizzardwatch.com/wp-content/uploads/2016/12/classic-av.jpg]
+[https://assets.rockpapershotgun.com/images/2018/11/world-of-warcraft-classic.jpeg]
+[https://i.ytimg.com/vi/d26Kl98_qo8/maxresdefault.jpg]
+
+Overwatch 2
+[https://bnetcmsus-a.akamaihd.net/cms/blog_header/p0/P003A8SL77D61664385388901.png]
+[https://www.pcgamesn.com/wp-content/sites/pcgamesn/2019/11/overwatch-2-push-mode.jpg]
+[https://gamingbolt.com/wp-content/uploads/2022/06/overwatch-2-image-3.jpg]
+[https://www.gameinformer.com/sites/default/files/styles/full/public/2022/09/29/6e3299b8/ow2-2.jpg]
+
+Minecraft
+[https://firstsportz.com/wp-content/uploads/2021/12/Adobe_Post_20211215_1512460.jpg]
+[https://www.wallpaperflare.com/static/886/859/742/minecraft-gameplay-wallpaper.jpg]
+[https://i.pinimg.com/564x/98/76/12/9876121be93c91758c13bb59c61777d2.jpg]
+[https://i.pinimg.com/564x/0e/22/4f/0e224f8fe90372ec96db32ca9ea98d72.jpg]
 
 Rainbow Six Siege
 [https://earlygame.com/the-history-of-rainbow-six-siege-from-failure-straight-up-to-esports]
@@ -106,6 +125,9 @@ Stardew Valley
 [https://www.stardewvalley.net]
 [https://www.gamesradar.com/stardew-valley-mine-scouting-tip-gives-you-an-instant-map-of-each-floor/]
 
+stock images
+[https://www.pexels.com/]
+
 ### Acknowledgements
 Local Storage
 [https://www.youtube.com/watch?v=k8yJCeuP6I8]
@@ -123,3 +145,9 @@ Clickable list items
 
 Expandable search bar
 [https://codepen.io/k185/pen/PQajXE]
+
+Star rating
+[https://codepen.io/hesguru/pen/BaybqXv]
+
+Dropdown list
+[https://codepen.io/alexdevero/pen/rNKzoN]
