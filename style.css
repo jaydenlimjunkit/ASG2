@@ -162,7 +162,7 @@ body{
   .grid li{
 	margin: 30px auto 0;
 	padding: 20px 10px;
-	background: #2c2c2c;
+	background: var(--bgColor);
 	position: relative;
 	transition: 400ms;
 	width: 100%;
@@ -182,8 +182,11 @@ body{
   
   .prod-name {
 	margin-top: 1em;
-	color:aliceblue;
+	color:black;
   }
+
+
+  
   
   .buttons {
 	margin-top: 1em;
@@ -191,7 +194,7 @@ body{
   }
   
   .grid a.moreinfo {
-	color: #85baff;
+	color: #006eff;
 	text-decoration: none;
 	transition: 400ms;
   }
@@ -207,13 +210,14 @@ body{
   
   .grid:hover a.moreinfo,
   .gr9d:focus-within a.moreinfo {
-	color: #CFE4FF;
+	color: #5388ce;
   }
   
   .grid li:hover,
   .grid li:focus-within {
-	background: #484848;
+	background: #6e6d6d;
 	box-shadow: 0px 3px 6px #000;
+
   }
   
   .prod-img {
