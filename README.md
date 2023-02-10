@@ -11,11 +11,15 @@ As a user that plays a lot of games, I would find some games such as elden ring 
 
 ### Existing Features
 - Search bar
--- hdhdh
+-- Search among our products  
 - Image slider
-- Log in
+-- Showcase images of product(game)
 - Sign up
+-- Create an account where the details will be sent to the database(restdb)
+- Log in
+-- Use data from database to log users in
 - Local storage(cart)
+-- Store products into cart where users can see final price
 
 ### Features Left To Implement
 
@@ -61,7 +65,7 @@ Fifa 23
 [https://www.ea.com/games/fifa/fifa-23/news/pitch-notes-fifa-23-gameplay-deep-dive]
 [https://www.goal.com/en-sg/news/fifa-23-review-cut-glitz-glamour-superior-gameplay-experience-does-talking/blt1c2f5193e3ee3557]
 
-eldern ring
+elden ring
 [https://www.dsogaming.com/videotrailer-news/new-elden-ring-gameplay-footage-and-4k-screenshots/]
 [https://www.reddit.com/r/Eldenring/comments/u0tkm7/peak_elden_ring_gameplay/]
 [https://techtelegraph.co.uk/elden-ring-new-gameplay-mechanics-you-need-to-know-about/]
