@@ -18,6 +18,18 @@ const er = document.getElementById("er");
 const erprice = document.getElementById("erprice");
 const eraddtocart = document.getElementById("eraddtocart");
 
+const cod = document.getElementById("cod");
+const codprice = document.getElementById("codprice");
+const codaddtocart = document.getElementById("codaddtocart");
+
+const mhw = document.getElementById("mhw");
+const mhwprice = document.getElementById("mhwprice");
+const mhwaddtocart = document.getElementById("mhwaddtocart");
+
+const rss = document.getElementById("rss");
+const rssprice = document.getElementById("rssprice");
+const rssaddtocart = document.getElementById("rssaddtocart");
+
 const IsOutput = document.getElementById("IsOutput");
 const IsOutputgamename = document.getElementById("IsOutputgamename");
 
@@ -26,13 +38,47 @@ const clearstorage = document.getElementById("clearstorage");
 const clearcart = document.getElementById("clearcart");
 
 let total = 0
+
+try{
+    rssaddtocart.onclick = function (){
+        const rainbowsixsiege = rss.textContent;
+        const rainbowsixsiegeprice = rssprice.textContent;
+
+        localStorage.setItem(rainbowsixsiege, rainbowsixsiegeprice);
+        alert("Added to Cart")
+    };
+}
+catch{
+};
+try{
+    mhwaddtocart.onclick = function (){
+        const monsterhunterworld = mhw.textContent;
+        const monsterhunterworldprice = mhwprice.textContent;
+
+        localStorage.setItem(monsterhunterworld, monsterhunterworldprice);
+        alert("Added to Cart")
+    };
+}
+catch{
+};
+try{
+    codaddtocart.onclick = function (){
+        const callofduty = cod.textContent;
+        const callofdutyprice = codprice.textContent;
+
+        localStorage.setItem(callofduty, callofdutyprice);
+        alert("Added to Cart")
+    };
+}
+catch{
+};
 try{
     eraddtocart.onclick = function (){
         const eldenring = er.textContent;
         const eldenringprice = erprice.textContent;
 
         localStorage.setItem(eldenring, eldenringprice);
-
+        alert("Added to Cart")
     };
 }
 catch{
@@ -43,7 +89,7 @@ try{
         const fifa23price = fifaprice.textContent;
 
         localStorage.setItem(fifa23, fifa23price);
-
+        alert("Added to Cart")
     };
 }
 catch{
@@ -54,7 +100,7 @@ try{
         const minecraftprice = mcprice.textContent;
 
         localStorage.setItem(minecraft, minecraftprice);
-
+        alert("Added to Cart")
     };
 }
 catch{
@@ -65,7 +111,7 @@ try {
         const overwatchprice = owprice.textContent;
     
         localStorage.setItem(overwatch, overwatchprice);
-    
+        alert("Added to Cart")
     };
 }
 catch{};
@@ -75,7 +121,7 @@ try{
         const worldowarcraftprice = wowprice.textContent;
 
         localStorage.setItem(worldofwarcraft, worldowarcraftprice);
-
+        alert("Added to Cart")
     };
 }
 catch{
@@ -142,3 +188,4 @@ try{
     }
 }
 catch{}
+
