@@ -448,9 +448,8 @@ body{
 		transition: .4s;
 	}
 	.lottie-animation{
-		height: 300px;
-		width: 300px;
-		object-fit: contain;
+		padding: 1rem;
+		margin-left: 0.5rem;
 	}
 }
 
