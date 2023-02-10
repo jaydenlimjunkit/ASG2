@@ -23,6 +23,7 @@ const IsOutputgamename = document.getElementById("IsOutputgamename");
 
 const clearstorage = document.getElementById("clearstorage");
 
+const clearcart = document.getElementById("clearcart");
 
 let total = 0
 try{
@@ -91,9 +92,7 @@ try{
     
     for (let i = 0; i < localStorage.length; i++){
         const key = localStorage.key(i);
-        console.log(localStorage.getItem(key));
         total += parseFloat(localStorage.getItem(key));
-        console.log(total);
 
     }
     IsOutput.innerHTML += `${total}<br />`;
@@ -131,7 +130,15 @@ catch{}
 
 try{
     clearstorage.onclick = function(){
-        localStorage.clear()
+        localStorage.clear();
+    }
+}
+catch{}
+
+try{
+    clearcart.onclick = function(){
+        localStorage.clear();
+        location.reload();
     }
 }
 catch{}
