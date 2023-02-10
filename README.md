@@ -11,7 +11,7 @@ As a user that plays a lot of games, I would find some games such as elden ring 
 
 ### Existing Features
 - Search bar
-hfbfub
+-- hdhdh
 - Image slider
 - Log in
 - Sign up
