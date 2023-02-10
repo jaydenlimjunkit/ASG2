@@ -32,7 +32,6 @@ menu.onclick = () => {
 function search() {
 
   let cards = document.querySelectorAll('.prod-card')
-  let cardlist = document.querySelectorAll('.grid')
   // Locate the search input
   let search_query = document.getElementById("searching").value;
   // Loop through the cards
@@ -48,14 +47,6 @@ function search() {
       cards[i].classList.add("is-hidden");
     }
 
-    if(cardlist[i].innerText.toLowerCase()
-      // ...and the text matches the search query...
-      .includes(search_query.toLowerCase())) {
-        // ...remove the `.is-hidden` class.
-        cardlist[i].classList.remove("is-hidden");
-    } else {
-      // Otherwise, add the class.
-      cardlist[i].classList.add("is-hidden");
-    }
+
   }
 }
