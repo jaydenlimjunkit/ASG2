@@ -95,6 +95,8 @@ $(document).ready(function () {
         $("#contact-list tbody").html(content);
   
         $("#total-contacts").html(response.length);
+        
+
       });
   
   
@@ -104,6 +106,5 @@ $(document).ready(function () {
   
     
   
-   
   
   })
