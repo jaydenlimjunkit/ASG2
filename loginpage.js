@@ -35,11 +35,17 @@ $(document).ready(function () {
         $.ajax(settings).done(function (response) {
 
     
-            
-            if (response[0].Password == password){
-              alert("Logged in")
+            try{
+              if (response[0].Password == password){
+                alert("Logged in")
+              }
+              window.location.assign("cart.html");
             }
-            window.location.assign("cart.html");
+            catch{
+              alert("Wrong Password")
+              location.reload();
+            }
+
 
         });
       
