@@ -56,7 +56,7 @@ $(document).ready(function () {
 
         $("#add-update-msg").show().fadeOut(3000);
   
-        window.location.assign("cart.html")
+        window.location.assign("loginpage.html")
 
       //  getContacts();
       });
