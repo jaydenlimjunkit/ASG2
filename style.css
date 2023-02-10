@@ -277,7 +277,7 @@ body{
   }
   
   button {
-	background-color: #638D99 !important;
+	background-color: #638D99;
   }
   
   select {
@@ -308,6 +308,14 @@ body{
 .home_container{
     padding-top: 4rem;
     row-gap: 3rem;
+}
+
+.data{
+    margin-left: 7rem;
+}
+
+.lottie-animation{
+	margin-left: 5rem;
 }
 
 .subtitle{
@@ -405,7 +413,10 @@ body{
 	margin-bottom: 2px;
 }
 
+.contact{
 
+	padding: 5rem;
+}
 
 .contact-info{
 	display: grid;
@@ -419,6 +430,53 @@ body{
 	height: auto;
 }
 
+.socials i{
+	color: #565656;
+	margin-right: 10px;
+	font-size: 20px;
+	transition: all .42s;
+}
+
+.socials i:hover{
+	transform: scale(1.3);
+}
+
+
+@media (max-width:980px) {
+	header{
+		padding: 20px 4%;
+		transition: .4s;
+	}
+	.lottie-animation{
+		height: 300px;
+		width: 300px;
+		object-fit: contain;
+	}
+}
+
+@media (max-width:750px) {
+	.nav{
+		position: absolute;
+		top: 100%;
+		right: -100%;
+		width: 300px;
+		height: 130vh;
+		background: #EDFFF1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 120px 30px;
+		transition: all .42s;
+	}
+	.nav a{
+		display: block;
+		margin: 18px 0;
+	}
+	.nav.open{
+		right:0;
+	}
+
+}
 
 html, body {
 	display: flex;
@@ -521,18 +579,4 @@ html, body {
 	.btn-block {
 	margin-top: 10px;
 	text-align: center;
-	}
-	button {
-	width: 100%;
-	padding: 10px 0;
-	margin: 10px auto;
-	border-radius: 5px; 
-	border: none;
-	background: #1c87c9; 
-	font-size: 14px;
-	font-weight: 600;
-	color: #fff;
-	}
-	button:hover {
-	background: #26a9e0;
 	}
