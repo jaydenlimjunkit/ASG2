@@ -33,7 +33,17 @@ As a user that plays a lot of games, I would find some games such as elden ring 
 - Lottie
 
 ## Testing 
+1. Log in
+ - Go to the "Log in" page
+ - Try to submit with an empty form and the page an error message will pop up, thus it will not continue to cart and refresh your page
+ - Try to submit with a password that is not in the database and an error message will pop up, thus it will not continue to cart and refresh your page
 
+2. Sign Up
+ - Go to the "Sign up" page
+ - Try to with an empty form and it will not continue to the log in page
+ - Try to submit with an invalid email and it will not continue to the log in page
+
+On a mobile device, the website looks fine. when viewing on a mobile device, the navigation bar will be moved to the side where the user can click a button and it will show up
 
 
 ## Credits
