@@ -208,7 +208,7 @@ body{
 
  
 .rating{
-	padding: 19px;
+	padding: 20px;
 	margin-bottom: 20px;
 	margin-right: 20px;
 }
@@ -709,7 +709,48 @@ html, body {
 		padding: 10px 20px;
 	  }
 	  
-.dropdown{
-	margin-right: 2rem;
-	margin-bottom: 2rem;
+
+.dropdown a, li {
+	transition: background 0.35s ease;
+}
+.dropdown {
+	margin-left: 24px;
+	width: 14.5em;
+	border: 0.1em solid #c0cdd1;
+}
+.dropdown a {
+	display: block;
+	padding: 0.5em;
+	color: #000;
+	text-decoration: none;
+}
+.dropdown a:focus, .dropdown a:hover {
+	background: #ecf0f1;
+}
+.dropdown a:active {
+	background: #fbfcfc;
+}
+.fa {
+	float: right;
+}
+/*List*/
+.dropdown ul {
+	display: none;
+	border-top: 0.1em solid #c0cdd1;
+}
+.dropdown li {
+	padding: 0.5em;
+	cursor: pointer;
+}
+.dropdown li:not(:first-child) {
+	border-top: 0.1em dashed #dde4e6;
+}
+.dropdown li:last-child {
+	color: #ad0000;
+}
+.dropdown li:focus, .dropdown li:hover {
+	background: #ecf0f1;
+}
+.dropdown li:active {
+	background: #fbfcfc;
 }

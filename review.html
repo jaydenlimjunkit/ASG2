@@ -31,7 +31,22 @@
         <h1>Leave a review</h1>
         <div class="form" id="contact">
             <form>
-            <label class="dropdown"></label>
+                <div class="dropdown">
+                    <a href="#" class="js-link">Select game <i class="fa fa-chevron-down"></i></a>
+                    <ul class="js-dropdown-list">
+                        <li>World of Warcraft</li>
+                        <li>Overwatch 2</li>
+                        <li>Minecraft</li>
+                        <li>Stardew Valley</li>
+                        <li>Fifa 23</li>
+                        <li>Elden Ring</li>
+                        <li>Call of duty</li>
+                        <li>Monster Hunter World</li>
+                        <li>Rainbow 6 Siege</li>  
+                      <li>* Reset</li>
+                    </ul>
+                  </div>
+                
             <div class="rating">
                  Rating:
                 <div class="rate">
@@ -50,33 +65,11 @@
                 <br>
                 
                 
-
-                    <div class="dd-button">
-                      Select Game
-                    </div>
-                  
-                    <input type="checkbox" class="dd-input" id="test">
-                  
-                    <ul class="dd-menu">
-                      <li>World of Warcraft</li>
-                      <li>Overwatch 2</li>
-                      <li>Minecraft</li>
-                      <li>Stardew Valley</li>
-                      <li>Fifa 23</li>
-                      <li>Elden Ring</li>
-                      <li>Call of duty</li>
-                      <li>Monster Hunter World</li>
-                      <li>Rainbow 6 Siege</li>
-
-                      
-                      
-                    </ul>
-                    
-                  </label>
+                   
                 <label id="icon" for="name"><i class="fas fa-user"></i></label>
                 <input type="text" name="name" class="contact-email" id="name" placeholder="Display name" required/>
                 <label id="icon" for="name"><i class="fa-regular fa-comment-dots"></i></label>
-                <input type="text" name="name" class="message" id="name" placeholder="Comment" required/>
+                <input type="text" name="name" class="message" id="comment" placeholder="Comments if any." width="">
                 <div class="btn-block">
                   <input type="submit" class="contact-submit button" value="Leave a review">
               </form>
