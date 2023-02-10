@@ -176,7 +176,9 @@ catch{}
 
 try{
     clearstorage.onclick = function(){
+        alert("Your Purchase was Successful")
         localStorage.clear();
+        window.location.assign("index.html");
     }
 }
 catch{}
